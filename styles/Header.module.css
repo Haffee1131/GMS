@@ -1,0 +1,32 @@
+.header {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	font-family: "roboto", "sans-serif";
+	font-weight: bold;
+	color: white;
+	align-items: center;
+	background-color: rgb(106, 47, 255);
+	margin-bottom: 30px;
+}
+
+.inner_div {
+	display: flex;
+	justify-content: left;
+	width: 100%;
+	margin-left: 30px;
+}
+.inner_down_div {
+	display: flex;
+	justify-content: right;
+	width: 100%;
+	margin-right: 30px;
+}
+.home_link {
+	color: white;
+	font-size: 20px;
+}
+.home_link:hover {
+	color: white;
+}

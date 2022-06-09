@@ -1,0 +1,19 @@
+.title {
+	text-align: center;
+	margin: 30px 30px 50px 30px;
+	/* color: rgb(40, 8, 248);
+	 */
+	color: rgb(245, 29, 29);
+}
+
+.admin_btn_container {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.form_container {
+	width: 400px;
+	margin: 20px auto;
+}
