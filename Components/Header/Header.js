@@ -10,7 +10,7 @@ export default function Header() {
 						<a className={styles.home_link}>Home</a>
 					</Link>
 				</div>
-				<pre>Google University</pre>
+				<h2>Google University</h2>
 				<div className={styles.inner_down_div}>
 					<Link href="/admin">
 						<a className={styles.home_link}>Admin</a>
