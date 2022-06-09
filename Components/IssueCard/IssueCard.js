@@ -14,7 +14,7 @@ export default function IssueCard({ id, name, email, category, issue }) {
 
 	async function deleteIssue() {
 		try {
-			const deleted = await fetch("http://localhost:3000/api/issues", {
+			const deleted = await fetch("/api/issues", {
 				method: "DELETE",
 				body: JSON.stringify(id),
 			});
