@@ -26,7 +26,7 @@ export default function Home() {
 
 	const addIssue = async () => {
 		try {
-			const res = await fetch("http://localhost:3000/api/issues", {
+			const res = await fetch("/api/issues", {
 				method: "POST",
 				headers: {
 					Accept: "application/json",
