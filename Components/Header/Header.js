@@ -6,13 +6,13 @@ export default function Header() {
 		<>
 			<div className={styles.header}>
 				<div className={styles.inner_div}>
-					<Link href="http://localhost:3000">
+					<Link href="/">
 						<a className={styles.home_link}>Home</a>
 					</Link>
 				</div>
 				<pre>Google University</pre>
 				<div className={styles.inner_down_div}>
-					<Link href="http://localhost:3000/admin">
+					<Link href="/admin">
 						<a className={styles.home_link}>Admin</a>
 					</Link>
 				</div>
